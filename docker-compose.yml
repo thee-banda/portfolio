@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build: ./frontend
+    container_name: devthee.com
+    ports: [3000:3000]
+    networks: [devthee.com]
+networks:
+  devthee.com:
+    external: true
