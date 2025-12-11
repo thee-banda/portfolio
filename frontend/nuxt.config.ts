@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     preset: 'static'
   },
   app: {
-    baseURL: 'https://github.com/thee-banda/portfolio.git',
+    baseURL: '/portfolio/',
     buildAssetsDir: 'assets'
   },
   devtools: { enabled: true }
